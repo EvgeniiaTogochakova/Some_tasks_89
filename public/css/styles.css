@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    background-color: cadetblue;
+    color: white;
+    width: 350px;
+    padding: 50px;
+
+    p.greeting {
+        text-align: center;
+        font-style: italic;
+        font-size: 30px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .form {
+            background-color: #afcecf;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            div {
+                display: flex;
+                justify-content: flex-end;
+                gap: 20px;
+            }
+
+        }
+
+        .button {
+            margin-top: 10px;
+            background-color: white;
+            color: rgb(77, 131, 133);
+            padding: 10px;
+            border-radius: 25px;
+            border: 1px solid orange;
+        }
+
+        .button:hover {
+            background-color: orange;
+        }
+    }
+}
